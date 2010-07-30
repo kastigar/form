@@ -585,7 +585,7 @@ $.fieldValue = function(el, successful) {
 		}
 		return a;
 	}
-	return el.value;
+	return $(el).val();
 };
 
 /**
